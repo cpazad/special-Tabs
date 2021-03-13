@@ -83,3 +83,12 @@
 .slider>p {
     padding: 0px 35px;
 }
+.container1 {
+    position: relative;
+}
+.hiddenTab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
