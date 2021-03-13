@@ -1,0 +1,85 @@
+.main_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: cornsilk;
+    gap: 10px;
+    color: #ffffff;
+}
+.main_container>div {
+    background-color:#000000;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto ;
+    background-color: cornsilk;
+    gap: 20px;
+    padding: 20px;
+}
+.container2>div {
+    background-color: darkgoldenrod;
+}
+.item1 {
+    grid-area:1/ 1 /span 1/ span 1;
+    background-image: url(https://i.postimg.cc/280g35jx/photo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+  }
+  .item2 {
+    grid-area:1/ 2 /span 1/ span 2;
+    background-image: url(https://i.postimg.cc/QdVw7rHZ/photo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+  }
+  .item3 {
+    grid-area:2/1 /span 2/ span 2;
+    background-image: url(https://i.postimg.cc/1t1jbnMy/photo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+  }
+  .item4 {
+    grid-area:2/ 3 /span 1/ span 1;
+    background-image: url(https://i.postimg.cc/MT0Fw6rV/photo4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+  }
+  .item5 {
+    grid-area:3/ 3 /span 1/ span 1;
+    background-image: url(https://i.postimg.cc/hvpZJCnG/photo5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+  }
+  .item6 {
+    grid-area:4/ 1 /span 1/ span 1;
+    background-image: url(https://i.postimg.cc/R0HYPQ7P/photo6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+  }
+  .item7 {
+    grid-area:4/2 /span 1/ span 2;
+    background-image: url(https://i.postimg.cc/JzggcdkD/photo7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:150px;
+  }
+
+.slider {
+    padding: 15px;
+    text-align: center;
+}
+.slider>p {
+    padding: 0px 35px;
+}
